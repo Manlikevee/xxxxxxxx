@@ -1,0 +1,75 @@
+.signup {
+    bottom: 2%;
+    display: none;
+    margin-right: -15px !important;
+    max-width: 280px;
+    position: fixed;
+    right: 2%;  
+    z-index: 9999;  
+    }
+    
+    .signup-header {
+    background: #539c22;
+    border-radius: 10px 10px 0 0;
+    color: #ffffff;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-size: 20px;
+    padding: 25px 15px;
+    text-transform: uppercase;
+    }
+    
+    .signup-container {
+    background-color: #6db240;
+    border-radius: 0 0 10px 10px;
+    color: #ffffff;
+    padding: 15px;
+    }
+    
+    .closebtn {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute; 
+    right: 15px;
+    top: 5px;   
+    }
+    
+    .closebtn:hover {
+    color: #6db240;
+    }
+    
+    .signup-container .button {
+    background-color: #539c22; 
+    border: 0 none;
+    border-radius: 5px;
+    color: #ffffff !important;
+    cursor: pointer;
+    font-size: 15px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 15px 0 0 !important;
+    text-align: center;
+    transition: all 0.23s ease-in-out 0s;
+    width: 100% !important;
+    }
+    
+    .signup-container .button:hover {
+    opacity: 0.7;
+    }
+    
+    .signup-container .mc-field-group input {
+    display: block;
+    padding: 8px 0;
+    text-indent: 2%;
+    width: 100%;
+    }
+    
+    .signup-container input {
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    cursor: auto;
+    font-family: 'Open sans', sans-serif; 
+    font-size: 15px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    }
